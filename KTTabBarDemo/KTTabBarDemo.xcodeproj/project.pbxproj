@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D69B8261EEA459100E33EDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D69B8251EEA459100E33EDA /* main.m */; };
+		4D69B8291EEA459100E33EDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D69B8281EEA459100E33EDA /* AppDelegate.m */; };
+		4D69B82C1EEA459100E33EDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D69B82B1EEA459100E33EDA /* ViewController.m */; };
+		4D69B82F1EEA459100E33EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D69B82D1EEA459100E33EDA /* Main.storyboard */; };
+		4D69B8311EEA459100E33EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D69B8301EEA459100E33EDA /* Assets.xcassets */; };
+		4D69B8341EEA459100E33EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D69B8321EEA459100E33EDA /* LaunchScreen.storyboard */; };
+		4D69B83F1EEA459100E33EDA /* KTTabBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D69B83E1EEA459100E33EDA /* KTTabBarDemoTests.m */; };
+		4D69B84A1EEA459100E33EDA /* KTTabBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D69B8491EEA459100E33EDA /* KTTabBarDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D69B83B1EEA459100E33EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D69B8191EEA459100E33EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D69B8201EEA459100E33EDA;
+			remoteInfo = KTTabBarDemo;
+		};
+		4D69B8461EEA459100E33EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D69B8191EEA459100E33EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D69B8201EEA459100E33EDA;
+			remoteInfo = KTTabBarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D69B8211EEA459100E33EDA /* KTTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D69B8251EEA459100E33EDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D69B8271EEA459100E33EDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D69B8281EEA459100E33EDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D69B82A1EEA459100E33EDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D69B82B1EEA459100E33EDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D69B82E1EEA459100E33EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D69B8301EEA459100E33EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D69B8331EEA459100E33EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D69B8351EEA459100E33EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D69B83A1EEA459100E33EDA /* KTTabBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTTabBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D69B83E1EEA459100E33EDA /* KTTabBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTTabBarDemoTests.m; sourceTree = "<group>"; };
+		4D69B8401EEA459100E33EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D69B8451EEA459100E33EDA /* KTTabBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTTabBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D69B8491EEA459100E33EDA /* KTTabBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTTabBarDemoUITests.m; sourceTree = "<group>"; };
+		4D69B84B1EEA459100E33EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D69B81E1EEA459100E33EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D69B8371EEA459100E33EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D69B8421EEA459100E33EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D69B8181EEA459100E33EDA = {
+			isa = PBXGroup;
+			children = (
+				4D69B8231EEA459100E33EDA /* KTTabBarDemo */,
+				4D69B83D1EEA459100E33EDA /* KTTabBarDemoTests */,
+				4D69B8481EEA459100E33EDA /* KTTabBarDemoUITests */,
+				4D69B8221EEA459100E33EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D69B8221EEA459100E33EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D69B8211EEA459100E33EDA /* KTTabBarDemo.app */,
+				4D69B83A1EEA459100E33EDA /* KTTabBarDemoTests.xctest */,
+				4D69B8451EEA459100E33EDA /* KTTabBarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D69B8231EEA459100E33EDA /* KTTabBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4D69B8271EEA459100E33EDA /* AppDelegate.h */,
+				4D69B8281EEA459100E33EDA /* AppDelegate.m */,
+				4D69B82A1EEA459100E33EDA /* ViewController.h */,
+				4D69B82B1EEA459100E33EDA /* ViewController.m */,
+				4D69B82D1EEA459100E33EDA /* Main.storyboard */,
+				4D69B8301EEA459100E33EDA /* Assets.xcassets */,
+				4D69B8321EEA459100E33EDA /* LaunchScreen.storyboard */,
+				4D69B8351EEA459100E33EDA /* Info.plist */,
+				4D69B8241EEA459100E33EDA /* Supporting Files */,
+			);
+			path = KTTabBarDemo;
+			sourceTree = "<group>";
+		};
+		4D69B8241EEA459100E33EDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D69B8251EEA459100E33EDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D69B83D1EEA459100E33EDA /* KTTabBarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D69B83E1EEA459100E33EDA /* KTTabBarDemoTests.m */,
+				4D69B8401EEA459100E33EDA /* Info.plist */,
+			);
+			path = KTTabBarDemoTests;
+			sourceTree = "<group>";
+		};
+		4D69B8481EEA459100E33EDA /* KTTabBarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D69B8491EEA459100E33EDA /* KTTabBarDemoUITests.m */,
+				4D69B84B1EEA459100E33EDA /* Info.plist */,
+			);
+			path = KTTabBarDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D69B8201EEA459100E33EDA /* KTTabBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D69B84E1EEA459100E33EDA /* Build configuration list for PBXNativeTarget "KTTabBarDemo" */;
+			buildPhases = (
+				4D69B81D1EEA459100E33EDA /* Sources */,
+				4D69B81E1EEA459100E33EDA /* Frameworks */,
+				4D69B81F1EEA459100E33EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTTabBarDemo;
+			productName = KTTabBarDemo;
+			productReference = 4D69B8211EEA459100E33EDA /* KTTabBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D69B8391EEA459100E33EDA /* KTTabBarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D69B8511EEA459100E33EDA /* Build configuration list for PBXNativeTarget "KTTabBarDemoTests" */;
+			buildPhases = (
+				4D69B8361EEA459100E33EDA /* Sources */,
+				4D69B8371EEA459100E33EDA /* Frameworks */,
+				4D69B8381EEA459100E33EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D69B83C1EEA459100E33EDA /* PBXTargetDependency */,
+			);
+			name = KTTabBarDemoTests;
+			productName = KTTabBarDemoTests;
+			productReference = 4D69B83A1EEA459100E33EDA /* KTTabBarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D69B8441EEA459100E33EDA /* KTTabBarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D69B8541EEA459100E33EDA /* Build configuration list for PBXNativeTarget "KTTabBarDemoUITests" */;
+			buildPhases = (
+				4D69B8411EEA459100E33EDA /* Sources */,
+				4D69B8421EEA459100E33EDA /* Frameworks */,
+				4D69B8431EEA459100E33EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D69B8471EEA459100E33EDA /* PBXTargetDependency */,
+			);
+			name = KTTabBarDemoUITests;
+			productName = KTTabBarDemoUITests;
+			productReference = 4D69B8451EEA459100E33EDA /* KTTabBarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D69B8191EEA459100E33EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "李维庆";
+				TargetAttributes = {
+					4D69B8201EEA459100E33EDA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 833738AHLS;
+						ProvisioningStyle = Automatic;
+					};
+					4D69B8391EEA459100E33EDA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 833738AHLS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D69B8201EEA459100E33EDA;
+					};
+					4D69B8441EEA459100E33EDA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 833738AHLS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D69B8201EEA459100E33EDA;
+					};
+				};
+			};
+			buildConfigurationList = 4D69B81C1EEA459100E33EDA /* Build configuration list for PBXProject "KTTabBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D69B8181EEA459100E33EDA;
+			productRefGroup = 4D69B8221EEA459100E33EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D69B8201EEA459100E33EDA /* KTTabBarDemo */,
+				4D69B8391EEA459100E33EDA /* KTTabBarDemoTests */,
+				4D69B8441EEA459100E33EDA /* KTTabBarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D69B81F1EEA459100E33EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D69B8341EEA459100E33EDA /* LaunchScreen.storyboard in Resources */,
+				4D69B8311EEA459100E33EDA /* Assets.xcassets in Resources */,
+				4D69B82F1EEA459100E33EDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D69B8381EEA459100E33EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D69B8431EEA459100E33EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D69B81D1EEA459100E33EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D69B82C1EEA459100E33EDA /* ViewController.m in Sources */,
+				4D69B8291EEA459100E33EDA /* AppDelegate.m in Sources */,
+				4D69B8261EEA459100E33EDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D69B8361EEA459100E33EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D69B83F1EEA459100E33EDA /* KTTabBarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D69B8411EEA459100E33EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D69B84A1EEA459100E33EDA /* KTTabBarDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D69B83C1EEA459100E33EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D69B8201EEA459100E33EDA /* KTTabBarDemo */;
+			targetProxy = 4D69B83B1EEA459100E33EDA /* PBXContainerItemProxy */;
+		};
+		4D69B8471EEA459100E33EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D69B8201EEA459100E33EDA /* KTTabBarDemo */;
+			targetProxy = 4D69B8461EEA459100E33EDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D69B82D1EEA459100E33EDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D69B82E1EEA459100E33EDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D69B8321EEA459100E33EDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D69B8331EEA459100E33EDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D69B84C1EEA459100E33EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D69B84D1EEA459100E33EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D69B84F1EEA459100E33EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 833738AHLS;
+				INFOPLIST_FILE = KTTabBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiqing.KTTabBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D69B8501EEA459100E33EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 833738AHLS;
+				INFOPLIST_FILE = KTTabBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiqing.KTTabBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D69B8521EEA459100E33EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 833738AHLS;
+				INFOPLIST_FILE = KTTabBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiqing.KTTabBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTTabBarDemo.app/KTTabBarDemo";
+			};
+			name = Debug;
+		};
+		4D69B8531EEA459100E33EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 833738AHLS;
+				INFOPLIST_FILE = KTTabBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiqing.KTTabBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTTabBarDemo.app/KTTabBarDemo";
+			};
+			name = Release;
+		};
+		4D69B8551EEA459100E33EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 833738AHLS;
+				INFOPLIST_FILE = KTTabBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiqing.KTTabBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTTabBarDemo;
+			};
+			name = Debug;
+		};
+		4D69B8561EEA459100E33EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 833738AHLS;
+				INFOPLIST_FILE = KTTabBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiqing.KTTabBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTTabBarDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D69B81C1EEA459100E33EDA /* Build configuration list for PBXProject "KTTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D69B84C1EEA459100E33EDA /* Debug */,
+				4D69B84D1EEA459100E33EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D69B84E1EEA459100E33EDA /* Build configuration list for PBXNativeTarget "KTTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D69B84F1EEA459100E33EDA /* Debug */,
+				4D69B8501EEA459100E33EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D69B8511EEA459100E33EDA /* Build configuration list for PBXNativeTarget "KTTabBarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D69B8521EEA459100E33EDA /* Debug */,
+				4D69B8531EEA459100E33EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D69B8541EEA459100E33EDA /* Build configuration list for PBXNativeTarget "KTTabBarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D69B8551EEA459100E33EDA /* Debug */,
+				4D69B8561EEA459100E33EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D69B8191EEA459100E33EDA /* Project object */;
+}
